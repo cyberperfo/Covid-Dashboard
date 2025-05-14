@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "CovidDashboard API Collection",
+        "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
+        "description": "Covid-19 verilerini test etmek icin Postman koleksiyonu.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Covid Stats by Country",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/covid/stats/turkey",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "covid",
+                        "stats",
+                        "turkey"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
